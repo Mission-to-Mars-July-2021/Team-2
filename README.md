@@ -1,11 +1,12 @@
-# TeamName
+# TheSpammers
 
 TinkerCad Circuit basic design URL is
 
 https://www.tinkercad.com/things/5wLrUnmS7ip-team2/editel?sharecode=vvysz_KvhjBLusX2uFP6KlItXW9ZX9wm6ZuF4rYiRTU
 
 ## Team Values
-What are your team values?
+Eat a lot of food
+Be Honest with you sleep schedule
 
 ## Scrum Git
 Replace with your name and item. 
