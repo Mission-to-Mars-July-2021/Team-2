@@ -38,7 +38,7 @@ void loop()   // this is a loop!!!!
 if(leftcounter >= 870) {
   Serial.println("Counter has reached 870");
   stop();
-  delay(100000)
+  delay(100000);
 }
 }
 
