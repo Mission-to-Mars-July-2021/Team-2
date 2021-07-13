@@ -25,7 +25,7 @@ void setup()
     
 }
 
-void loop()
+void loop()   // this is a loop!!!!
     {    
   forwards();
   
@@ -35,9 +35,10 @@ void loop()
   Serial.println(rightcounter);
 
 
-if(leftcounter >= 970) {
-  Serial.println("Counter has reached 970");
+if(leftcounter >= 870) {
+  Serial.println("Counter has reached 870");
   stop();
+  delay(100000)
 }
 }
 
@@ -75,3 +76,4 @@ void stop() {
   digitalWrite(REVERSE_RIGHT, HIGH);
   
 }
+                  
