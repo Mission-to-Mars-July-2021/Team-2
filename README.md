@@ -7,6 +7,7 @@ https://www.tinkercad.com/things/5wLrUnmS7ip-team2/editel?sharecode=vvysz_KvhjBL
 ## Team Values
 Eat a lot of food
 Be Honest with you sleep schedule
+Do no less than what you need to do to succeed
 
 ## Scrum Git
 Replace with your name and item. 
@@ -28,6 +29,18 @@ We will not be lazy and we will also reduce the time we spend doing nothing. Ins
 
 ## Day 2 Retrospective
 
+### What went well
+We communicated a lot more which helped
+
+### What didn't go well
+We all ended up becoming confused with a lot of errors.
+
+### What we will do more of tomorrow
+We will try to listen to each other more so that the process becomes a lot easier.
+
+### What we will do less of tomorrow
+
+We will again reduce the time we spend doing nothing.
 ## Day 3 Retrospective
 
 ## Day 4 Retrospective
