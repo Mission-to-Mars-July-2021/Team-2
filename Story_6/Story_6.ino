@@ -24,21 +24,21 @@ void setup()
 void loop()
     {    
   
-  if(millis() > 10000) {
+  if(millis() > 7000) {
     delay(10000000000);
   }
   
-    forwards(155,155);
+    forwards(150,155);
     
   if(leftcounter > rightcounter) 
   {
-    forwards(155,165);
+    forwards(155,160);
     
   }
   
   if (rightcounter > leftcounter) 
   {
-     forwards(165,155);
+     forwards(160,155);
   }
   
   Serial.print("Left Counter");
