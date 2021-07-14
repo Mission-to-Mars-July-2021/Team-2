@@ -24,8 +24,12 @@ void setup()
 void loop()
     {    
   
-  if(millis() > 7000) {
+  if(millis() > 10000) {
     delay(10000000000);
+  }
+  
+  if(millis() > 9000) {
+  stop();
   }
   
     forwards(150,155);
@@ -86,8 +90,8 @@ void loop()
   digitalWrite(ENABLE_LEFT, LOW);
   digitalWrite(FORWARD_LEFT, LOW);
   digitalWrite(FORWARD_RIGHT, LOW);
-  digitalWrite(REVERSE_LEFT, HIGH);
-  digitalWrite(REVERSE_RIGHT, HIGH);
+  digitalWrite(REVERSE_LEFT, LOW);
+  digitalWrite(REVERSE_RIGHT, LOW);
   
 }              
                   
