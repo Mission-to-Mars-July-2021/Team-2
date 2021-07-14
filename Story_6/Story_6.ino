@@ -23,51 +23,65 @@ void setup()
 }
 void loop()
     {    
+  
+  if(millis() > 10000) {
+    delay(10000000000);
+  }
+  
     forwards(155,155);
     
-  if(leftcounter > rightcounter) {
-    Serial.println("Counter has reached 870");
+  if(leftcounter > rightcounter) 
+  {
     forwards(155,165);
     
   }
   
-  if (rightcounter > leftcounter) {
+  if (rightcounter > leftcounter) 
+  {
      forwards(165,155);
   }
+  
+  Serial.print("Left Counter");
+  Serial.println(leftcounter);
+  
+  Serial.print("Right Counter");
+  Serial.print(rightcounter);  
     
+    if(rightcounter >= 10) {
+     Serial.println("Counter has reached 10");
+  }
+}
     
-    delay(10000);
-    exit(0);
-
-                 
-     }
-    
-
-    void LeftMotorISR() {
+    void LeftMotorISR() 
+    {
     leftcounter++;
      }
 
-    void RightMotorISR() {
+    void RightMotorISR() 
+    {
     rightcounter++;
-     }             
+           }             
                  
-     void forwards(int rightspeed, int leftspeed){
-  digitalWrite(ENABLE_RIGHT, HIGH);
-  digitalWrite(ENABLE_LEFT, HIGH);
-  analogWrite(FORWARD_RIGHT, rightspeed);
-  analogWrite(FORWARD_LEFT, leftspeed);
+  void forwards(int leftspeed, int rightspeed)
+  {
+  analogWrite(ENABLE_RIGHT, rightspeed);
+  analogWrite(ENABLE_LEFT, leftspeed);
+  digitalWrite(FORWARD_RIGHT, HIGH);
+  digitalWrite(FORWARD_LEFT, HIGH);
   digitalWrite(REVERSE_LEFT, LOW);
   digitalWrite(REVERSE_RIGHT, LOW);
-}
-  void backwards() {
+           }
+  void backwards() 
+  {
   digitalWrite(ENABLE_RIGHT, HIGH);
   digitalWrite(ENABLE_LEFT, HIGH);
   digitalWrite(FORWARD_LEFT, LOW);
   digitalWrite(FORWARD_RIGHT, LOW);
   digitalWrite(REVERSE_LEFT, HIGH);
   digitalWrite(REVERSE_RIGHT, HIGH);
-}
-void stop() {
+           }
+  void stop() 
+  {
   digitalWrite(ENABLE_RIGHT, LOW);
   digitalWrite(ENABLE_LEFT, LOW);
   digitalWrite(FORWARD_LEFT, LOW);
