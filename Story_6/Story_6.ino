@@ -42,7 +42,7 @@ void loop()
   
   if (rightcounter > leftcounter) 
   {
-     forwards(160,155);
+     forwards(165,155);
   }
   
   Serial.print("Left Counter");
