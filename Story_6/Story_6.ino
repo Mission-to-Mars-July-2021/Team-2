@@ -32,7 +32,7 @@ void loop()
   stop();
   }
   
-    forwards(150,155);
+    forwards(155,155);
     
   if(leftcounter > rightcounter) 
   {
