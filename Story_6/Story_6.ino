@@ -26,8 +26,8 @@ void loop()
   
   if(millis() > 10000) {
   stop();
-  delay(1500)
-  exit();
+  delay(1500);
+  exit(0);
   }
   
     forwards(155,155);
