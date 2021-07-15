@@ -49,19 +49,19 @@ void loop()
   forwards(155,155);
   delay(4000);
   turningright(145,145);
-  delay(2000);
+  delay(1800);
   forwards(155,155);
   delay(2000);
   turningright(135,135);
-  delay(2000);
+  delay(1800);
   forwards(155,155);
   delay(4000);
   turningright(135,135);
-  delay(2000);
+  delay(1800);
   forwards(155,155);
   delay(2000);
   turningright(135,135);
-  delay(2000);
+  delay(1800);
   forwards(155,155);
   delay(1800);
   stop();
@@ -92,8 +92,8 @@ void LeftMotorISR()
 
 
 void turningleft() {
-  analogWrite(ENABLE_RIGHT, 118);
-  analogWrite(ENABLE_LEFT, 118);
+  analogWrite(ENABLE_RIGHT, 120);
+  analogWrite(ENABLE_LEFT, 120);
   digitalWrite(FORWARD_RIGHT, HIGH);
   digitalWrite(FORWARD_LEFT, LOW);
   digitalWrite(REVERSE_LEFT, HIGH);
