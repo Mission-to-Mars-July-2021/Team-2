@@ -100,8 +100,8 @@ void turningleft() {
   digitalWrite(REVERSE_RIGHT, LOW);  
 }
 void turningright() {
-  analogWrite(ENABLE_RIGHT, 180);
-  analogWrite(ENABLE_LEFT, 180);
+  analogWrite(ENABLE_RIGHT, 145);
+  analogWrite(ENABLE_LEFT, 145);
   digitalWrite(FORWARD_RIGHT, LOW);
   digitalWrite(FORWARD_LEFT, HIGH);
   digitalWrite(REVERSE_LEFT, LOW);

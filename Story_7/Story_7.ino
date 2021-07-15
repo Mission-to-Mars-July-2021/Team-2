@@ -24,7 +24,7 @@ void setup()
 void loop()
     {    
   
-  if(millis() > 13000) {
+  if(millis() > 40000) {
   stop();
   delay(1500);
   exit(0);
@@ -36,19 +36,37 @@ void loop()
   delay(2000);
   forwards(155,155);
   delay(2000);
-  turningleft();  
+  turningleft();
+  delay(2000);
+  forwards(155,155);
+  delay(4000);
+  turningleft();
   delay(2000);
   forwards(155,155);
   delay(2000);
-  turningleft();  
+  turningleft();
+  delay(2000);
+  forwards(155,155);
+  delay(4000);
+  turningright();
   delay(2000);
   forwards(155,155);
   delay(2000);
-  turningleft();  
+  turningright();
+  delay(2000);
+  forwards(155,155);
+  delay(4000);
+  turningright();
+  delay(2000);
+  forwards(155,155);
+  delay(2000);
+  turningright();
+  delay(2000);
+  forwards(155,155);
   delay(2000);
   stop();
-  delay(100000000);
-  
+  delay(10000000);
+
   
 } // end of loop
 
@@ -81,6 +99,14 @@ void turningleft() {
   digitalWrite(REVERSE_LEFT, HIGH);
   digitalWrite(REVERSE_RIGHT, LOW);  
 }
+void turningright() {
+  analogWrite(ENABLE_RIGHT, 145);
+  analogWrite(ENABLE_LEFT, 145);
+  digitalWrite(FORWARD_RIGHT, LOW);
+  digitalWrite(FORWARD_LEFT, HIGH);
+  digitalWrite(REVERSE_LEFT, LOW);
+  digitalWrite(REVERSE_RIGHT, HIGH);  
+}
    
   void backwards() 
   {
@@ -97,20 +123,20 @@ void turningleft() {
   digitalWrite(ENABLE_LEFT, LOW);
   digitalWrite(FORWARD_LEFT, LOW);
   digitalWrite(FORWARD_RIGHT, LOW);
-  digitalWrite(REVERSE_LEFT, LOW);
-  digitalWrite(REVERSE_RIGHT, LOW);  
-}              
+  digitalWrite(REVERSE_LEFT, LOW);               
+  digitalWrite(REVERSE_RIGHT, LOW);
+               }
+               
 void controlleft() {
   if (rightcounter > leftcounter) 
   {
      forwards(165,155);
   }
- 
 }
-
+               
 void controlright() {
-   if (leftcounter < rightcounter) {
-    
+  if (leftcounter < rightcounter)
+  { 
     forwards(155,165);
   }
 }
