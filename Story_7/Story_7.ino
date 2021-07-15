@@ -74,8 +74,8 @@ void LeftMotorISR()
 
 
 void turningleft() {
-  analogWrite(ENABLE_RIGHT, 155);
-  analogWrite(ENABLE_LEFT, 155);
+  analogWrite(ENABLE_RIGHT, 120);
+  analogWrite(ENABLE_LEFT, 120);
   digitalWrite(FORWARD_RIGHT, HIGH);
   digitalWrite(FORWARD_LEFT, LOW);
   digitalWrite(REVERSE_LEFT, HIGH);
