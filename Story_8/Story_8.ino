@@ -48,19 +48,19 @@ void loop()
   delay(2000);
   forwards(155,155);
   delay(4000);
-  turningright();
+  turningright(145,145);
   delay(2000);
   forwards(155,155);
   delay(2000);
-  turningright();
+  turningright(145,145);
   delay(2000);
   forwards(155,155);
   delay(4000);
-  turningright();
+  turningright(130,130);
   delay(2000);
   forwards(155,155);
   delay(2000);
-  turningright();
+  turningright(130,130);
   delay(2000);
   forwards(155,155);
   delay(2000);
@@ -99,9 +99,9 @@ void turningleft() {
   digitalWrite(REVERSE_LEFT, HIGH);
   digitalWrite(REVERSE_RIGHT, LOW);  
 }
-void turningright() {
-  analogWrite(ENABLE_RIGHT, 145);
-  analogWrite(ENABLE_LEFT, 145);
+void turningright(int leftspeed, int rightspeed) {
+  analogWrite(ENABLE_RIGHT, rightspeed);
+  analogWrite(ENABLE_LEFT, leftspeed);
   digitalWrite(FORWARD_RIGHT, LOW);
   digitalWrite(FORWARD_LEFT, HIGH);
   digitalWrite(REVERSE_LEFT, LOW);
