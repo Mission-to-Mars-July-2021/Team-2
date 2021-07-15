@@ -63,7 +63,7 @@ void loop()
   turningright(130,130);
   delay(2000);
   forwards(155,155);
-  delay(2000);
+  delay(1500);
   stop();
   delay(10000000);
 
