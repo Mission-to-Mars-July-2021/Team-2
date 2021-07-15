@@ -66,15 +66,7 @@ void loop()
   delay(2000);
   stop();
   delay(10000000);
-  
-  
-  
-  
-  
-  
-  stop();
-  delay(100000000);
-  
+
   
 } // end of loop
 
@@ -131,20 +123,20 @@ void turningright() {
   digitalWrite(ENABLE_LEFT, LOW);
   digitalWrite(FORWARD_LEFT, LOW);
   digitalWrite(FORWARD_RIGHT, LOW);
-  digitalWrite(REVERSE_LEFT, LOW);
-  digitalWrite(REVERSE_RIGHT, LOW);  
-}              
+  digitalWrite(REVERSE_LEFT, LOW);               
+  digitalWrite(REVERSE_RIGHT, LOW);
+               }
+               
 void controlleft() {
   if (rightcounter > leftcounter) 
   {
      forwards(165,155);
   }
- 
 }
-
+               
 void controlright() {
-   if (leftcounter < rightcounter) {
-    
+  if (leftcounter < rightcounter)
+  { 
     forwards(155,165);
   }
 }
