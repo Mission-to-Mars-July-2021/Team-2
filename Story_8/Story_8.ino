@@ -52,7 +52,7 @@ void loop()
   delay(2000);
   forwards(155,155);
   delay(2000);
-  turningright(145,145);
+  turningright(135,135);
   delay(2000);
   forwards(155,155);
   delay(4000);
