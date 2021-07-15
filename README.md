@@ -45,6 +45,17 @@ We will again reduce the time we spend doing nothing.
 
 ## Day 4 Retrospective
 
+### What went well
+we listened to each other more which helped us complete more tasks.
+
+### What didn't go well
+We ended up being confused with errors.
+
+### What we will do more of tomorrow
+We will communicate a bit more.
+
+### What we will do less of tomorrow
+We will expirement with the software while waiting to test our code.
 ## Final Retrospective
 
 This is the readme. Formatting of text is as follows.
