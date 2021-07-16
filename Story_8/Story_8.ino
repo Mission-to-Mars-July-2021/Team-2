@@ -55,20 +55,20 @@ void loop()
   
   forwards(155,155);
   delay(4000);
-  turningright(145,145);
-  delay(1800);
+  turningright(135,135);
+  delay(1500);
   forwards(155,155);
   delay(2000);
   turningright(135,135);
-  delay(1800);
+  delay(1500);
   forwards(155,155);
   delay(4000);
   turningright(135,135);
-  delay(1800);
+  delay(1500);
   forwards(155,155);
   delay(2000);
   turningright(135,135);
-  delay(1800);
+  delay(1500);
   forwards(155,155);
   delay(1800);
   stop();
