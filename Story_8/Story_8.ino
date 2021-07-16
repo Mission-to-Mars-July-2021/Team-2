@@ -56,21 +56,21 @@ void loop()
   forwards(155,155);
   delay(4000);
   turningright(135,135);
-  delay(1500);
+  delay(2000);
   forwards(155,155);
   delay(2000);
   turningright(135,135);
-  delay(1500);
+  delay(2000);
   forwards(155,155);
   delay(4000);
   turningright(135,135);
-  delay(1500);
+  delay(2000);
   forwards(155,155);
   delay(2000);
   turningright(135,135);
-  delay(1500);
+  delay(2000);
   forwards(155,155);
-  delay(1800);
+  delay(2000);
   stop();
   delay(10000000);
 
@@ -82,10 +82,10 @@ void LeftMotorISR()
     leftcounter++;
      }
 
-    void RightMotorISR() 
+void RightMotorISR() 
     {
     rightcounter++;
-             } 
+     } 
                
   void forwards(int leftspeed, int rightspeed)
   {
