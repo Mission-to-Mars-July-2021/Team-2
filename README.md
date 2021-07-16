@@ -56,7 +56,14 @@ We will communicate a bit more.
 
 ### What we will do less of tomorrow
 We will expirement with the software while waiting to test our code.
+
 ## Final Retrospective
+
+### what went well
+we communicated a lot which helped fix errors we had
+
+### What didn't go well
+we did nothing a lot instead of doing the tasks
 
 This is the readme. Formatting of text is as follows.
 
