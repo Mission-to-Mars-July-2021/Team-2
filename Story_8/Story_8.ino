@@ -23,13 +23,16 @@ void setup()
 }
 void loop()
     {    
-  
+  /*
   if(millis() > 40000) {
   stop();
   delay(1500);
   exit(0);
   }
+  */
   
+  // Left Square
+  /*
   forwards(155,155);
   delay(2000);
   turningleft();
@@ -46,6 +49,10 @@ void loop()
   delay(2000);
   turningleft();
   delay(2000);
+  
+  */
+  // Right Square
+  
   forwards(155,155);
   delay(4000);
   turningright(145,145);
